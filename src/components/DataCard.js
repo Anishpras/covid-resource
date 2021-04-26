@@ -2,7 +2,7 @@ import React from "react";
 
 const DataCard = ({ city, distributor, address, number, status }) => {
   return (
-    <a href={"tel:" + { number }}>
+    <a href={`tel:${number}`}>
       <div className={status ? "data-card" : "data-card-red"}>
         <h1>{city}</h1>
         <h2>{distributor}</h2>

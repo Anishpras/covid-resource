@@ -2,7 +2,7 @@ const RemdesivirData = [
   {
     city: "Patna",
     distributor_name: "	NEW PURAN MEDICAL AGENCY",
-    helpline: "9431063952	",
+    helpline: "9431063952",
     address: "Sarraf Palace, Govind Mitra road	",
     status: true,
   },
