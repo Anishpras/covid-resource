@@ -1,0 +1,44 @@
+
+*{
+    text-decoration: none;
+    text-align: center;
+
+} 
+.card{
+border-radius: 2px solid red;
+    display: inline-grid;
+    grid-gap: 50px;
+
+    text-align: center;
+    height:300px;
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #03B38E;
+border-radius: 80px;
+transition: transform .3s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card-a{
+    background-color: #03B38E;
+    height:300px;
+    width: 400px;
+    color:white;
+  
+}
+.call{
+    color:blue;
+    font-size: 20px;
+    transition: transform .3s;
+
+}
+.call:hover{
+    transform: scale(1.2);
+}
+.number{
+    color:red;
+    font-size: 20px;
+
+}

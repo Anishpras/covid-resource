@@ -1,4 +1,4 @@
-const Oxygen = [
+const OxygenData = [
     {
         city: "Patna",
         distributor_name: " Vidya",
@@ -354,4 +354,4 @@ const Oxygen = [
 
 ]
 
-export default Oxygen;
+export default OxygenData;
