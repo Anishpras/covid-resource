@@ -5,11 +5,12 @@ import Oxygen from "./routes/Oxygen";
 import Plasma from "./routes/Plasma";
 import ResourcePage from "./routes/ResourcePage";
 import HospitalBed from "./routes/HospitalBed";
-import './Styles/App.css'
+import Remdesivir from "./routes/Remdesivir";
+import Tocilizumab from "./routes/Tocilizumab";
+import Fabiffue from "./routes/Fabiffue";
 function App() {
   return (
     <Router>
-    <div className="app">
       <Switch>
         <Route path="/" exact>
           <ResourcePage />
@@ -29,8 +30,19 @@ function App() {
         <Route path="/medicines">
           <Medicines />
         </Route>
+
+        <Route path="/remdesivir">
+          <Remdesivir />
+        </Route>
+
+        <Route path="/tocilizumab">
+          <Tocilizumab />
+        </Route>
+
+        <Route path="/fablifue">
+          <Fabiffue />
+        </Route>
       </Switch>
-      </div>
     </Router>
   );
 }

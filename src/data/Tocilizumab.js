@@ -93,27 +93,7 @@ const Tocilizumab = [
         address:'bhagalpur	' ,
         status:true ,
     },
-    { 
-        city:'',
-        distributor_name:'',
-        helpline:'',
-        address:'' ,
-        status:true ,
-    },
-    { 
-        city:'',
-        distributor_name:'',
-        helpline:'',
-        address:'' ,
-        status:true ,
-    },
-    { 
-        city:'',
-        distributor_name:'',
-        helpline:'',
-        address:'' ,
-        status:true ,
-    },
+   
 
 ]
 

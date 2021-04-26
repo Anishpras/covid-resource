@@ -48,13 +48,7 @@
     address: "Govind mitra road, Patna	",
     status: true,
   },
-  {
-    city: "",
-    distributor_name: "",
-    helpline: "",
-    address: "",
-    status: true,
-  },
+ 
 ];
 
 export default Remdesivir
