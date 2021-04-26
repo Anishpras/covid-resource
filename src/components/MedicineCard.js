@@ -1,12 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 
-const MedicineCard = ({name,link}) => {
+const MedicineCard = () => {
     return (
-        <Link to={link}> <div className="medicine-card">
-        <h1>{name}</h1>
-    </div></Link>
-       
+        <div>
+            
+        </div>
     )
 }
 
