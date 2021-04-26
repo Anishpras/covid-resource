@@ -1,4 +1,4 @@
-  const Remdesivir= [
+const RemdesivirData = [
   {
     city: "Patna",
     distributor_name: "	NEW PURAN MEDICAL AGENCY",
@@ -57,4 +57,4 @@
   },
 ];
 
-export default Remdesivir
+export default RemdesivirData;

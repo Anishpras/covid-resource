@@ -1,4 +1,4 @@
-const Tocilizumab = [
+const TocilizumabData = [
 
 
     { 
@@ -117,4 +117,4 @@ const Tocilizumab = [
 
 ]
 
-export default Tocilizumab ;
+export default TocilizumabData ;
