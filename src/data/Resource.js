@@ -24,6 +24,10 @@ const Resource = [
     name: "CovidSos",
     link: "https://www.covidsos.live/app/index.html",
   },
+  {
+    name: "COVID-19 Help Center",
+    link: "https://sites.google.com/view/coronaresources/home?authuser=0",
+  },
 ];
 
 export default Resource;
