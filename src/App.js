@@ -9,6 +9,7 @@ import Remdesivir from "./routes/Remdesivir";
 import Tocilizumab from "./routes/Tocilizumab";
 import Fabiffue from "./routes/Fabiffue";
 import NavBar from "./components/NavBar";
+import Doctors from "./routes/Doctors";
 function App() {
   return (
     <Router>
@@ -43,6 +44,9 @@ function App() {
 
         <Route path="/fablifue">
           <Fabiffue />
+        </Route>
+        <Route path="/doctors">
+          <Doctors />
         </Route>
       </Switch>
     </Router>

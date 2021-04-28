@@ -1,9 +1,9 @@
 import React from "react";
 import "../style/data-card.css";
-const DataCard = ({ city, distributor, address, number, status,comment }) => {
+const DataCard = ({ city, distributor, address, number, status, comment }) => {
   return (
     <div className="card">
-      <a className="card-a" href={"tel:" + { number }}>
+      <a className="card-a" href={`tel:${number}`}>
         <div className={status ? "data-card" : "data-card-red"}>
           <h1>{city}</h1>
           <h2>{distributor}</h2>
