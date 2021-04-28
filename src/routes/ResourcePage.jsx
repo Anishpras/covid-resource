@@ -36,7 +36,6 @@ const ResourcePage = () => {
       name: "Extra Resources",
       link: "/extra",
     },
-   
   ];
 
   return (
@@ -48,6 +47,13 @@ const ResourcePage = () => {
               return <ResourceCard name={resource.name} link={resource.link} />;
             })}
           </div>
+          <h4 style={{ color: "black" }}>
+            NOTE-{" "}
+            <strong style={{ color: "black" }}>
+              If any link or number is not working inform us at
+              biharcovid428@gmail.com mob: 9162248329
+            </strong>
+          </h4>
         </div>
       </div>
     </div>
