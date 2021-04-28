@@ -12,6 +12,7 @@ const HospitalBed = () => {
             number={bed.helpline}
             address={bed.address}
             status={bed.status}
+            comment={bed.comment}
           />
         );
       })}

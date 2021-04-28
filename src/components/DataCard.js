@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/data-card.css";
-const DataCard = ({ city, distributor, address, number, status }) => {
+const DataCard = ({ city, distributor, address, number, status,comment }) => {
   return (
     <div className="card">
       <a className="card-a" href={"tel:" + { number }}>
@@ -8,6 +8,7 @@ const DataCard = ({ city, distributor, address, number, status }) => {
           <h1>{city}</h1>
           <h2>{distributor}</h2>
           <h3>{address}</h3>
+          <h3 className="comment">{comment}</h3>
           <h4 className="number">{number}</h4>
           <h5 className="call">Click to call</h5>
         </div>

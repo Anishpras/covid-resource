@@ -8,9 +8,11 @@ import HospitalBed from "./routes/HospitalBed";
 import Remdesivir from "./routes/Remdesivir";
 import Tocilizumab from "./routes/Tocilizumab";
 import Fabiffue from "./routes/Fabiffue";
+import NavBar from "./components/NavBar";
 function App() {
   return (
     <Router>
+      <NavBar />
       <Switch>
         <Route path="/" exact>
           <ResourcePage />

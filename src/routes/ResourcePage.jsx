@@ -25,7 +25,6 @@ const ResourcePage = () => {
   return (
     <div className="resource-page">
       <div className="resourcePage_content">
-        <h1> Bihar Covid Resources </h1>
         <div className="resourcePage_main">
           <div className="resourcePage_Card">
             {resources.map((resource) => {
