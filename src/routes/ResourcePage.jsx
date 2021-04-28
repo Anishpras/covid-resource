@@ -24,6 +24,10 @@ const ResourcePage = () => {
       name: "Doctors",
       link: "/doctors",
     },
+    {
+      name: "Food",
+      link: "/food",
+    },
   ];
 
   return (

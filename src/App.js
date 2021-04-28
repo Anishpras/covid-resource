@@ -10,7 +10,8 @@ import Tocilizumab from "./routes/Tocilizumab";
 import Fabiffue from "./routes/Fabiffue";
 import NavBar from "./components/NavBar";
 import Doctors from "./routes/Doctors";
-import './Styles/App.css'
+import Food from "./routes/Food";
+import "./Styles/App.css";
 function App() {
   return (
     <Router>
@@ -48,6 +49,9 @@ function App() {
         </Route>
         <Route path="/doctors">
           <Doctors />
+        </Route>
+        <Route path="/food">
+          <Food />
         </Route>
       </Switch>
     </Router>

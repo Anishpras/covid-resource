@@ -8,6 +8,13 @@ const OxygenData = [
   },
   {
     city: "Patna",
+    distributor_name: "OXYGEN FREE OF COST ",
+    helpline: "8210835103",
+    address: "",
+    status: true,
+  },
+  {
+    city: "Patna",
     distributor_name:
       "Nalanda Dental Clinic (Free refilling of oxygen in the morning)",
     helpline: "8210835103,6204867980",

@@ -34,6 +34,11 @@ const NavBar = () => {
             Doctors
           </NavLink>
         </li>
+        <li>
+          <NavLink to="/food" className="nav-links">
+            Food
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
