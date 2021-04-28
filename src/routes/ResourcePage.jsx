@@ -47,7 +47,7 @@ const ResourcePage = () => {
               return <ResourceCard name={resource.name} link={resource.link} />;
             })}
           </div>
-          <h4 style={{ color: "black" }}>
+          <h4 style={{ color: "black", paddingTop: "200px" }}>
             NOTE-{" "}
             <strong style={{ color: "black" }}>
               If any link or number is not working inform us at
