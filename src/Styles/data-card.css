@@ -103,4 +103,19 @@
     position: relative;
     left: 0;
   }
+  .card_main {
+    width: 100vw;
+  }
+  .dataCard_main {
+    flex-wrap: wrap;
+    border-radius: 20px;
+    min-width: 50vw !important;
+    margin: 5px;
+    background: rgba(4, 178, 141, 1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(16.5px);
+    -webkit-backdrop-filter: blur(16.5px);
+    border-radius: 10px;
+    padding: 20px;
+  }
 }
