@@ -1,7 +1,7 @@
 import React from "react";
 import DataCard from "../components/DataCard";
 import OxygenData from "../data/Oxygen";
-import '../Styles/Card.css'
+import "../Styles/Card.css";
 
 const Oxygen = () => {
   return (

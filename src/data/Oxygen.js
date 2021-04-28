@@ -23,9 +23,9 @@ const OxygenData = [
   },
   {
     city: "Patna",
-    distibutor_name: "Doorstep Oxygen Refilling  ",
+    distributor_name: "Doorstep Oxygen Refilling",
     helpline: "9431868325",
-    address: " ",
+    address: "",
     status: true,
     comment: "",
   },
