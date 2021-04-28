@@ -6,5 +6,12 @@ const Fabiflue = [
     address: "",
     status: true,
   },
+  {
+    city: "Patna",
+    distributor_name: "",
+    helpline: "8539882420",
+    address: "",
+    status: true,
+  },
 ];
 export default Fabiflue;
