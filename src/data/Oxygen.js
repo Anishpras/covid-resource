@@ -59,6 +59,13 @@ const OxygenData = [
   },
   {
     city: "Patna",
+    distributor_name: "A.R Gases(Only For Emergency)",
+    helpline: "9431208969",
+    address: "Patna Whatsapp Only",
+    status: true,
+  },
+  {
+    city: "Patna",
     distributor_name: "Kirti Enterprises",
     helpline: "7033702823",
     address: "JamalRoad",
