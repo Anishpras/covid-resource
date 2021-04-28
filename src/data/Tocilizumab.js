@@ -10,6 +10,27 @@ const Tocilizumab = [
     },
     { 
         city:'Patna',
+        distributor_name:'Shree Salasar Balaji Agency',
+        helpline:'9709300131',
+        address:'Khemka House, Ashok Rajpath' ,
+        status:true ,
+    },
+    { 
+        city:'Patna',
+        distributor_name:'Arya Drug Distributors',
+        helpline:'',
+        address:'Shree Krishna Palace, GM Road' ,
+        status:true ,
+    },
+    { 
+        city:'Patna',
+        distributor_name:'Shree Balaji Pharma',
+        helpline:'9334255074',
+        address:'Dak Bungalow Road' ,
+        status:true ,
+    },
+    { 
+        city:'Patna',
         distributor_name:' Kesar Vaccine Distributors	',
         helpline:'9431015585',
         address:'Govind Mitra road, Dujra diara, Patna	' ,

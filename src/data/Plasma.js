@@ -2,6 +2,13 @@ const Plasma = [
 
     { 
         city:'Patna',
+        distributor_name:'Open NGO',
+        helpline:'8360032289',
+        address:'(Available across Bihar, UP & West Bengal)' ,
+        status:true ,
+    },
+    { 
+        city:'Patna',
         distributor_name:'Jaiprabha Hospital Model Blood Bank',
         helpline:'0612 235 5805',
         address:'State of art Model Blood Bank,Jai Prabha Hospital Campus, P.C.Colony, Kankarbagh, Near Ganga Devi Mahila Maha Vidyalaya' ,
