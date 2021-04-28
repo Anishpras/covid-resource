@@ -1,10 +1,11 @@
 import React from "react";
 import DataCard from "../components/DataCard";
 import RemdesivirData from "../data/Remdesivir";
+import "../Styles/Card.css";
 
 const Remdesivir = () => {
   return (
-    <div className="remdesivir">
+    <div className="Main_card">
       {RemdesivirData.map((medicine) => {
         return (
           <DataCard

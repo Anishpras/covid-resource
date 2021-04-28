@@ -1,5 +1,6 @@
 import React from "react";
 import MedicineCard from "../components/MedicineCard";
+import '../Styles/Medicine.css'
 
 const Medicines = () => {
   const medicines = [
@@ -9,11 +10,13 @@ const Medicines = () => {
   ];
 
   return (
+    
     <div className="medicines">
-      {medicines.map((medicine) => {
-        return <MedicineCard name={medicine.name} link={medicine.link} />;
-      })}
+    {medicines.map((medicine) => {
+      return <MedicineCard name={medicine.name} link={medicine.link} />;
+    })}
     </div>
+   
   );
 };
 

@@ -1,0 +1,103 @@
+/* * {
+  text-decoration: none;
+  text-align: center;
+}
+.card {
+  text-align: center;
+
+  margin: 20px;
+ 
+  background-color: #03b38e;
+  border-radius: 80px;
+  transition: transform 0.3s;
+}
+.dataCard_main{
+
+    flex-wrap: wrap;
+    min-width: 30vw;
+    height: 15vh;
+    border-radius: 10px;
+
+        margin-bottom: 10px;
+    padding: 20px 10px 10px 10px;
+    color: white;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.call {
+  color: blue;
+  font-size: 20px;
+  transition: transform 0.3s;
+}
+.call:hover {
+  transform: scale(1.2);
+}
+.number {
+  color: red;
+  font-size: 20px;
+}
+.comment{
+  color:#ff0000e5;
+  font-size: 25px;
+} */
+.card_main{
+position: relative;
+left: 5%;
+
+
+}
+.card{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: center;
+  transition: transform 0.3s;
+  align-content: center;
+}
+.dataCard_main{
+  flex-wrap: wrap;
+  border-radius: 20px;
+  width: 25rem;
+margin: 5px;  
+background: rgba( 4, 178, 141, 1.00 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 16.5px );
+-webkit-backdrop-filter: blur( 16.5px );
+border-radius: 10px;
+  padding: 20px;
+  
+}
+.card-contet{
+  display: flex;
+
+}
+.call{
+  position: relative;
+  left: 8vw;
+  font-size: 1.1rem;
+  color: rgb(63, 63, 223);
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+
+.data-card-red{
+  color:#ff0000e5;
+
+}
+
+.data-card{
+  color: #fcfcfc;
+}
+.city{
+
+  color: #ffffff;
+}
+.address{
+  color: #ececec;
+}
+.number{
+  color: rgb(255, 255, 6);
+}

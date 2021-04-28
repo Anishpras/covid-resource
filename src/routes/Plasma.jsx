@@ -1,10 +1,11 @@
 import React from "react";
 import DataCard from "../components/DataCard";
 import PlasmaData from "../data/Plasma";
+import '../Styles/Card.css'
 
 const Plasma = () => {
   return (
-    <div className="plasma">
+    <div className="Main_card">
       {PlasmaData.map((plasma) => {
         return (
           <DataCard

@@ -10,6 +10,7 @@ import Tocilizumab from "./routes/Tocilizumab";
 import Fabiffue from "./routes/Fabiffue";
 import NavBar from "./components/NavBar";
 import Doctors from "./routes/Doctors";
+import './Styles/App.css'
 function App() {
   return (
     <Router>

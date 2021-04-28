@@ -1,5 +1,30 @@
 const Bed = [
+
+
   {
+    city: "Patna",
+    distibutor_name: "Central Hospital",
+    helpline: "8294878472",
+    address: "Bypass Patna",
+    status: true,
+    comment:"Status : Beds Available"
+  },
+  {
+    city: "Patna",
+    distibutor_name: "Guru Gobind Singh Hospital",
+    helpline: "9934025715 , 6202948466",
+    address: "Kangan ghat 12",
+    status: true,
+    comment:"Status : Beds Available"
+  },
+  {
+    city: "Patna",
+    distibutor_name: "Sri Sai Hospital",
+    helpline: "8104652701",
+    address: "Patna",
+    status: true,
+    comment:"Status : Beds Available"
+  },{
     city: "Patna",
     distibutor_name: "AIIMS",
     helpline: "6122451070",
@@ -405,5 +430,6 @@ const Bed = [
     status: true,
     comment:"Status : Beds Available"
   },
+  
 ];
 export default Bed;
