@@ -2,7 +2,7 @@ import React from "react";
 import "../Styles/data-card.css";
 const DataCard = ({ city, distributor, address, number, status, comment }) => {
   return (
-    <div className="card_main">
+    <div className={status ? "card_main" : "none"}>
       <div className="card">
         <div className="dataCard_main">
           <a href={`tel:${number}`}>

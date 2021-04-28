@@ -41,6 +41,9 @@
   color:#ff0000e5;
   font-size: 25px;
 } */
+.none {
+  display: none !important;
+}
 .card_main {
   position: relative;
   left: 5%;

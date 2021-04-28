@@ -1,13 +1,11 @@
 const Bed = [
-
-
   {
     city: "Patna",
     distibutor_name: "Central Hospital",
     helpline: "8294878472",
     address: "Bypass Patna",
     status: true,
-    comment:"Status : Beds Available"
+    comment: "Status : Beds Available",
   },
   {
     city: "Patna",
@@ -15,7 +13,7 @@ const Bed = [
     helpline: "9934025715 , 6202948466",
     address: "Kangan ghat 12",
     status: true,
-    comment:"Status : Beds Available"
+    comment: "Status : Beds Available",
   },
   {
     city: "Patna",
@@ -23,14 +21,15 @@ const Bed = [
     helpline: "8104652701",
     address: "Patna",
     status: true,
-    comment:"Status : Beds Available"
-  },{
+    comment: "Status : Beds Available",
+  },
+  {
     city: "Patna",
     distibutor_name: "AIIMS",
     helpline: "6122451070",
     address: "Aurangabad Rd, Phuwari Sharif, Patna, Bihar 801507",
     status: true,
-    comment:"Status : Not Picking Up"
+    comment: "Status : Not Picking Up",
   },
   {
     city: "Patna",
@@ -39,7 +38,7 @@ const Bed = [
     address:
       "19, Boring Patliputra Rd, near New Patliputra Colony, Golambar, Patna, Bihar 800013",
     status: false,
-    comment:"Status : Number Valid - Stock Over"
+    comment: "Status : Number Valid - Stock Over",
   },
   {
     city: "Patna",
@@ -47,7 +46,7 @@ const Bed = [
     helpline: "9431230052 , 06454244551",
     address: "Rambagh, Purnea",
     status: true,
-    comment:"Status : Not Picking Up"
+    comment: "Status : Not Picking Up",
   },
   {
     city: "Patna",
@@ -55,7 +54,7 @@ const Bed = [
     helpline: "8340616181",
     address: "Purnea",
     status: true,
-    comment:"Status : Not Picking Up"
+    comment: "Status : Not Picking Up",
   },
   {
     city: "Patna",
@@ -63,7 +62,7 @@ const Bed = [
     helpline: "9431291930",
     address: "Purnea",
     status: true,
-    comment:"Status : Number Verified & Working"
+    comment: "Status : Number Verified & Working",
   },
   {
     city: "Patna",
@@ -71,7 +70,7 @@ const Bed = [
     helpline: "9748899525",
     address: "Belouri",
     status: true,
-    comment:"Status : Number Verified & Working"
+    comment: "Status : Number Verified & Working",
   },
   {
     city: "Patna",
@@ -79,7 +78,7 @@ const Bed = [
     helpline: "97004406669",
     address: "Kali Mandir Marg, Line Bazar, Purnia, Bihar 854301",
     status: true,
-    comment:"Status : Number Verified & Working"
+    comment: "Status : Number Verified & Working",
   },
   {
     city: "Patna",
@@ -87,7 +86,7 @@ const Bed = [
     helpline: "7635084532",
     address: "East Lakshmi Nagar, Ramkrishan Nagar, Patna, Bihar 800027",
     status: false,
-    comment:"Status : Number Valid - Stock Over"
+    comment: "Status : Number Valid - Stock Over",
   },
   {
     city: "Patna",
@@ -95,7 +94,7 @@ const Bed = [
     helpline: "9470800656",
     address: "Mahavir Nagar, Bishunpuri, Bihar 800002",
     status: true,
-    comment:"Status : Number Verified & Working"
+    comment: "Status : Number Verified & Working",
   },
   {
     city: "Patna",
@@ -104,7 +103,7 @@ const Bed = [
     address:
       "Ram Lakhan Path, West Ashok Nagar, Ram Lakhan Path, Lohia Nagar, Patna, Bihar 800020",
     status: true,
-    comment:"Status : Not Picking Up"
+    comment: "Status : Not Picking Up",
   },
   {
     city: "Patna",
@@ -112,16 +111,15 @@ const Bed = [
     helpline: "6201402510",
     address: "Sonali Petrol Pump",
     status: false,
-    comment:""
+    comment: "",
   },
   {
     city: "Patna",
     distibutor_name: "Panchsheel Hospital",
     helpline: "9334380184",
-    address:
-      "E- 137, Doctors Colony, Near Malahi Pakri, Chowk",
+    address: "E- 137, Doctors Colony, Near Malahi Pakri, Chowk",
     status: false,
-    comment:"Status : Number Valid - Stock Over"
+    comment: "Status : Number Valid - Stock Over",
   },
   {
     city: "Patna",
@@ -129,7 +127,7 @@ const Bed = [
     helpline: "9262699979",
     address: "Hospital Road, Hajipur, Bihar 844128",
     status: true,
-    comment:"Status : Number Verified & Working"
+    comment: "Status : Number Verified & Working",
   },
   {
     city: "Patna",
@@ -137,7 +135,7 @@ const Bed = [
     helpline: "8340302165",
     address: "Kankarbagh",
     status: true,
-    comment:"Status : Not Picking Up"
+    comment: "Status : Not Picking Up",
   },
   {
     city: "Patna",
@@ -145,7 +143,7 @@ const Bed = [
     helpline: "9801110547",
     address: "HYogipur, Kankarbagh, Bankman Colony, Patna, Bihar 800020",
     status: false,
-    comment:"Status : Number Valid - Stock Over"
+    comment: "Status : Number Valid - Stock Over",
   },
   {
     city: "Patna",
@@ -154,7 +152,7 @@ const Bed = [
     address:
       "Main Road, Ashok Rajpath, Khamji Begum Colony, Sadikpur, Patna, Bihar 800006",
     status: true,
-    comment:"Status : Not Picking Up"
+    comment: "Status : Not Picking Up",
   },
   {
     city: "Patna",
@@ -163,7 +161,7 @@ const Bed = [
     address:
       "200 metre left from Nahar Chowk Naharpar, Bailey Rd, Rupaspur, Patna, Bihar 801503",
     status: true,
-    comment:"Status : Not Picking Up"
+    comment: "Status : Not Picking Up",
   },
   {
     city: "Patna",
@@ -172,7 +170,7 @@ const Bed = [
     address:
       "9/1 A, Near Pani Tanki, New Patliputra Colony, Patliputra Colony, Patna, Bihar 800013",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "Patna",
@@ -180,7 +178,7 @@ const Bed = [
     helpline: "9422514659",
     address: "Model colony",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "Muzaffarpur",
@@ -188,7 +186,7 @@ const Bed = [
     helpline: "6287645555",
     address: "Muzaffarpur",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "Champaran",
@@ -196,7 +194,7 @@ const Bed = [
     helpline: "7250786673",
     address: "",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "Patna",
@@ -204,7 +202,7 @@ const Bed = [
     helpline: "9955706874",
     address: "NH 31, Barh, Bihar 803213",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "Patna",
@@ -212,7 +210,7 @@ const Bed = [
     helpline: "9472520052",
     address: "Bhagat nagar, 90 feet road",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "Gaya",
@@ -220,7 +218,7 @@ const Bed = [
     helpline: "093347 67990",
     address: "Sgerghati",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "Araria",
@@ -228,7 +226,7 @@ const Bed = [
     helpline: "9304010491",
     address: "",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "Begusarai",
@@ -236,7 +234,7 @@ const Bed = [
     helpline: "6234221043",
     address: "",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "Munger",
@@ -244,7 +242,7 @@ const Bed = [
     helpline: "06342-254610",
     address: "",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "Muzaffarpur",
@@ -252,7 +250,7 @@ const Bed = [
     helpline: "7320923602",
     address: "Kanti",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "Muzaffarpur",
@@ -260,7 +258,7 @@ const Bed = [
     helpline: "",
     address: "Bochahan",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "Muzaffarpur",
@@ -268,7 +266,7 @@ const Bed = [
     helpline: "",
     address: "Aurai",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "Purnea",
@@ -276,7 +274,7 @@ const Bed = [
     helpline: "6462267396",
     address: "Bhawanipur Rajdham, Bihar 854204",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "Vaishali",
@@ -284,7 +282,7 @@ const Bed = [
     helpline: "6227223060",
     address: "",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "Vaishali",
@@ -292,7 +290,7 @@ const Bed = [
     helpline: "",
     address: "Rajapakar, Bihar 844124",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "East Champaran",
@@ -300,7 +298,7 @@ const Bed = [
     helpline: "11-23978046",
     address: "",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "East Champaran",
@@ -308,7 +306,7 @@ const Bed = [
     helpline: "",
     address: "Rajapakar, Bihar 844124",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "East Champaran",
@@ -316,7 +314,7 @@ const Bed = [
     helpline: "09431818163",
     address: "(Govt office , block-dhaka)",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "Vaishali",
@@ -324,7 +322,7 @@ const Bed = [
     helpline: "",
     address: "Rajapakar, Bihar 844124",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "Vaishali",
@@ -332,7 +330,7 @@ const Bed = [
     helpline: "",
     address: "Rajapakar, Bihar 844124",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "Samastipur",
@@ -340,7 +338,7 @@ const Bed = [
     helpline: "06275-222278",
     address: "Rosera",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "Bhagalpur",
@@ -348,7 +346,7 @@ const Bed = [
     helpline: "9470003117",
     address: "",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "Bhagalpur",
@@ -356,7 +354,7 @@ const Bed = [
     helpline: "9470003117",
     address: "",
     status: true,
-    comment:""
+    comment: "",
   },
   {
     city: "Patna",
@@ -364,7 +362,7 @@ const Bed = [
     helpline: "9470003583",
     address: " PATNA CITY",
     status: true,
-    comment:"Status : Beds Available"
+    comment: "Status : Beds Available",
   },
   {
     city: "Patna",
@@ -372,7 +370,7 @@ const Bed = [
     helpline: "9431065114",
     address: "Barh",
     status: true,
-    comment:"Status : Beds Available"
+    comment: "Status : Beds Available",
   },
   {
     city: "Patna",
@@ -380,7 +378,7 @@ const Bed = [
     helpline: "9334439782",
     address: "",
     status: true,
-    comment:"Status : Beds Available"
+    comment: "Status : Beds Available",
   },
   {
     city: "Patna",
@@ -388,7 +386,7 @@ const Bed = [
     helpline: "9934490027",
     address: "PATNA",
     status: true,
-    comment:"Status : Beds Available"
+    comment: "Status : Beds Available",
   },
   {
     city: "Patna",
@@ -396,7 +394,7 @@ const Bed = [
     helpline: "9334853115",
     address: "BIHTA",
     status: true,
-    comment:"Status : Beds Available"
+    comment: "Status : Beds Available",
   },
   {
     city: "Patna",
@@ -404,7 +402,7 @@ const Bed = [
     helpline: "9431077657",
     address: "Masaurhi",
     status: true,
-    comment:"Status : Beds Available"
+    comment: "Status : Beds Available",
   },
   {
     city: "Patna",
@@ -412,7 +410,7 @@ const Bed = [
     helpline: "9431020459",
     address: "PATNA",
     status: true,
-    comment:"Status : Beds Available"
+    comment: "Status : Beds Available",
   },
   {
     city: "Patna",
@@ -420,7 +418,7 @@ const Bed = [
     helpline: "8709547571",
     address: "PATNA",
     status: true,
-    comment:"Status : Beds Available"
+    comment: "Status : Beds Available",
   },
   {
     city: "Patna",
@@ -428,8 +426,7 @@ const Bed = [
     helpline: "9102698977",
     address: "near Khemnichak",
     status: true,
-    comment:"Status : Beds Available"
+    comment: "Status : Beds Available",
   },
-  
 ];
 export default Bed;
