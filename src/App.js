@@ -12,6 +12,7 @@ import NavBar from "./components/NavBar";
 import Doctors from "./routes/Doctors";
 import Food from "./routes/Food";
 import "./Styles/App.css";
+import Every from "./routes/Every";
 function App() {
   return (
     <Router>
@@ -52,6 +53,9 @@ function App() {
         </Route>
         <Route path="/food">
           <Food />
+        </Route>
+        <Route path="/every">
+          <Every />
         </Route>
       </Switch>
     </Router>

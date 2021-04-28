@@ -22,6 +22,14 @@ const OxygenData = [
     status: false,
   },
   {
+    city: "Patna",
+    distibutor_name: "Doorstep Oxygen Refilling  ",
+    helpline: "9431868325",
+    address: " ",
+    status: true,
+    comment: "",
+  },
+  {
     city: "Sipara",
     distributor_name: "Usha Air Products",
     helpline: "8789410839",

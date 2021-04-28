@@ -1,12 +1,21 @@
 const Bed = [
   {
     city: "Patna",
-    distributor_name: "Doorstep Oxygen Refilling  ",
-    helpline: "9431868325",
-    address: " ",
+    distibutor_name: "MH Danapur (Lt Col Kali Shankar)",
+    address: "Danapur Patna Bihar",
+    number: "833497822",
     status: true,
-    comment: "",
+    comment: "Status : Beds Available",
   },
+  {
+    city: "Gaya",
+    distibutor_name: "MH Gaya (Lt Col AK Jha)",
+    address: "Gaya Bihar",
+    number: "8406900832",
+    status: true,
+    comment: "Status : Beds Available",
+  },
+  
   {
     city: "Patna",
     distibutor_name: "Central Hospital",

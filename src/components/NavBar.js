@@ -39,6 +39,11 @@ const NavBar = () => {
             Food
           </NavLink>
         </li>
+        <li>
+          <NavLink to="/every" className="nav-links">
+            Every Data
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
