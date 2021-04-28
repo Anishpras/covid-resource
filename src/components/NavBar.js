@@ -41,7 +41,12 @@ const NavBar = () => {
         </li>
         <li>
           <NavLink to="/every" className="nav-links">
-            Every Data
+            Every Needs
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/extra" className="nav-links">
+            Extra Resources
           </NavLink>
         </li>
       </ul>
