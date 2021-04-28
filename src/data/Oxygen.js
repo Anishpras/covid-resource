@@ -10,8 +10,8 @@ const OxygenData = [
     city: "Patna",
     distributor_name: "OXYGEN FREE OF COST ",
     helpline: "8210835103",
-    address: "",
-    status: true,
+    address: "Nalanda Dental Clinic",
+    status: false,
   },
   {
     city: "Patna",
