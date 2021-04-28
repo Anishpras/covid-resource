@@ -13,6 +13,7 @@ import Doctors from "./routes/Doctors";
 import Food from "./routes/Food";
 import "./Styles/App.css";
 import Every from "./routes/Every";
+import ExtraResource from "./routes/ExtraResource";
 function App() {
   return (
     <Router>
@@ -56,6 +57,9 @@ function App() {
         </Route>
         <Route path="/every">
           <Every />
+        </Route>
+        <Route path="/extra">
+          <ExtraResource />
         </Route>
       </Switch>
     </Router>

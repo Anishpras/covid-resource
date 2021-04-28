@@ -32,6 +32,10 @@ const ResourcePage = () => {
       name: "Every Need For Covid +ve Patients",
       link: "/every",
     },
+    {
+      name: "Extra Resources",
+      link: "/extra",
+    },
   ];
 
   return (
