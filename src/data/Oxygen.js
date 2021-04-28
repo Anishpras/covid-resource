@@ -1,5 +1,4 @@
 const OxygenData = [
-  
   {
     city: "Fatuha",
     distributor_name: "Bansir Air Product (Free refilling of oxygen)",
@@ -65,13 +64,7 @@ const OxygenData = [
     address: "JamalRoad",
     status: true,
   },
-  {
-    city: "Patna",
-    distributor_name: "Kirti Enterprises",
-    helpline: "7033702823",
-    address: "JamalRoad",
-    status: true,
-  },
+
   {
     city: "Patna",
     distributor_name: "Gaurav Air Products",
@@ -135,7 +128,7 @@ const OxygenData = [
     address: "Fathua",
     status: true,
   },
-  
+
   {
     city: "Sipara",
     distributor_name: "Usha Air Products",
