@@ -14,6 +14,13 @@ const OxygenData = [
     status: true,
   },
   {
+    city: "Patna",
+    distributor_name: "Refilling Only",
+    helpline: "8825193669",
+    address: "Patna",
+    status: true,
+  },
+  {
     city: "Fatuha",
     distributor_name: "Bansir Air Product (Free refilling of oxygen)",
     helpline: "9204550805",
