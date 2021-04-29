@@ -1,60 +1,95 @@
 
 .navbar {
-  font-size: 18px;
-  background: rgba(4, 178, 141, 1);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(16.5px);
-  -webkit-backdrop-filter: blur(16.5px);
-
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  padding-bottom: 10px;
-  height: 6rem;
-  display: flex;
-  justify-content: space-between;
-}
-.main-nav {
-  display: flex;
-
-  justify-content: space-between;
-  align-items: center;
-}
-.nav-links {
-  text-decoration: none;
-  padding: 10px;
-}
-.nav-links,
-.logo {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  list-style-type: none;
-}
-.main-nav {
-  list-style-type: none;
-}
-.logo {
-  text-align: center;
-  align-items: center;
-  display: inline-block;
-  font-size: 22px;
-  margin-top: 18px;
-  margin-left: 20px;
-}
-.main-nav li {
-  text-align: center;
-  margin: 15px auto;
-}
-@media (max-width: 840px) {
-  .navbar {
-    justify-content: center;
-    height: 5rem;
+    font-size: 18px;
+    background: rgba(4, 178, 141, 1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(16.5px);
+    -webkit-backdrop-filter: blur(16.5px);
+  
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    align-items: center;
   }
+  
   .main-nav {
+    list-style-type: none;
     display: none;
   }
+  
+  .nav-links,
   .logo {
-    justify-content: center;
-    font-size: 22px;
-    margin-top: 14px;
-    margin-left: 0px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
   }
-}
+  
+  .main-nav li {
+    text-align: center;
+    margin: 15px auto;
+  }
+  
+  .logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+  }
+  
+  .active {
+    display: block;
+  }
+  
+  @media screen and (min-width: 840px) {
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0;
+      height: 70px;
+      align-items: center;
+    }
+  
+    .main-nav {
+      display: flex;
+      margin-right: 30px;
+      flex-direction: row;
+      justify-content: center;
+   
+    }
+  
+  .nav-links{
+    padding: 10px;
+  }
+  
+    .logo:hover,
+    .nav-links:hover {
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+  
+  @media (max-width: 840px) {
+    .navbar {
+      justify-content: center;
+      height: 5rem;
+    }
+    .main-nav {
+      display: none;
+    }
+    .logo {
+      justify-content: center;
+      font-size: 22px;
+      margin-top: 10px;
+      margin-left: 0px;
+    }
+  }

@@ -31,6 +31,7 @@ const ResourcePage = () => {
     {
       name: "Every Need For Covid +ve Patients",
       link: "/every",
+      
     },
     {
       name: "Extra Resources",
@@ -63,7 +64,7 @@ const ResourcePage = () => {
         <div className="resourcePage_main">
           <div className="resourcePage_Card">
             {resources.map((resource) => {
-              return <ResourceCard name={resource.name} link={resource.link} />;
+              return <ResourceCard   name={resource.name} link={resource.link} />;
             })}
           </div>
         </div>
