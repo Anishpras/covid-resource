@@ -2,9 +2,11 @@ import React from "react";
 import DataCard from "../components/DataCard";
 import FoodData from "../data/Food";
 import "../Styles/Card.css";
+import ResourceNews from "./ResourceNews";
 const Food = () => {
   return (
     <div className="color-main">
+    <ResourceNews/>
       <div className="Main_card">
         {FoodData.map((food) => {
           return (

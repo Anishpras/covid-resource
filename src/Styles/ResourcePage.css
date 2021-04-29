@@ -23,8 +23,7 @@ a {
 
 .resourcePage_news {
   position: relative;
-  top: 40px;
-  bottom: 40px;
+  
 
   text-align: center;
   display: flex;

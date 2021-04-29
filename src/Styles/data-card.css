@@ -1,46 +1,4 @@
-/* * {
-  text-decoration: none;
-  text-align: center;
-}
-.card {
-  text-align: center;
 
-  margin: 20px;
- 
-  background-color: #03b38e;
-  border-radius: 80px;
-  transition: transform 0.3s;
-}
-.dataCard_main{
-
-    flex-wrap: wrap;
-    min-width: 30vw;
-    height: 15vh;
-    border-radius: 10px;
-
-        margin-bottom: 10px;
-    padding: 20px 10px 10px 10px;
-    color: white;
-}
-.card:hover {
-  transform: scale(1.1);
-}
-.call {
-  color: blue;
-  font-size: 20px;
-  transition: transform 0.3s;
-}
-.call:hover {
-  transform: scale(1.2);
-}
-.number {
-  color: red;
-  font-size: 20px;
-}
-.comment{
-  color:#ff0000e5;
-  font-size: 25px;
-} */
 .none {
   display: none !important;
 }
