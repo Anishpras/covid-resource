@@ -17,6 +17,7 @@ const Oxygen = () => {
               number={oxygen.helpline}
               address={oxygen.address}
               status={oxygen.status}
+              comment={oxygen.comment}
             />
           );
         })}
