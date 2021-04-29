@@ -1,5 +1,12 @@
 const OxygenData = [
   {
+    city: "Patna",
+    distributor_name: " Dubey Ji ",
+    helpline: "08757954547",
+    address: "Patna,Bihar",
+    status: true,
+  },
+  {
     city: "Fatuha",
     distributor_name: "Bansir Air Product (Free refilling of oxygen)",
     helpline: "9204550805",

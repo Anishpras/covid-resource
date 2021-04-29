@@ -1,6 +1,30 @@
 const Bed = [
   {
     city: "Patna",
+    distibutor_name: "Narayani HOSP ",
+    address: " Patna Bihar",
+    helpline: "7635084532",
+    status: true,
+    comment: "Single Bed,Oxygen and ventilator avail",
+  },
+  {
+    city: "Patna",
+    distibutor_name: "Jdm Hospital  ",
+    address: " Kankarbagh",
+    helpline: "8102473340",
+    status: true,
+    comment: "5 bed available with 2 bed available with ventilator",
+  },
+  {
+    city: "Patna",
+    distibutor_name: "Life Hospital ",
+    address: " Sonali Petrol Pump , Patna ",
+    helpline: "6201402510",
+    status: true,
+    comment: "Ventilator available ",
+  },
+  {
+    city: "Patna",
     distibutor_name: "Medimax Hospital",
     address: "Danapur Patna Bihar",
     helpline: "8804285467",
