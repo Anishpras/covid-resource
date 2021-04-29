@@ -1,0 +1,21 @@
+.resource-main {
+}
+.resource_Card {
+
+  width: 20rem;
+  height: 20rem;
+  background-color: #03B38E
+  ;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.recourceCard_head{
+    position: relative;
+    top: 30%;
+}

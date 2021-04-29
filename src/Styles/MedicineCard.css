@@ -1,0 +1,20 @@
+.medicineCard_main {
+  display: flex;
+}
+
+.MedicineCard_content {
+  flex-wrap: wrap;
+  border-radius: 20px;
+  width: 25rem;
+  height: 10rem;
+  margin: 5px;
+  background-color: #03b38e;
+  padding: 20px;
+  margin-top: 15px;
+}
+.medicine-card {
+  text-align: center;
+  position: relative;
+  top: 15px;
+  color: white;
+}

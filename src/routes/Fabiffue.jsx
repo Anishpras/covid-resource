@@ -1,10 +1,10 @@
 import React from "react";
 import DataCard from "../components/DataCard";
 import FabiflueData from "../data/Fabiflue";
-
+import "../Styles/Card.css";
 const Fabiffue = () => {
   return (
-    <div className="fabilffue">
+    <div className="Main_card">
       {FabiflueData.map((medicine) => {
         return (
           <DataCard

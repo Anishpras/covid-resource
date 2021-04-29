@@ -1,4 +1,4 @@
-const FabiflueData = [
+const Fabiflue = [
   {
     city: "Patna",
     distributor_name: "Geetianjali Medicos",
@@ -6,5 +6,12 @@ const FabiflueData = [
     address: "",
     status: true,
   },
+  {
+    city: "Patna",
+    distributor_name: "Harsh",
+    helpline: "8539882420",
+    address: "",
+    status: true,
+  },
 ];
-export default FabiflueData;
+export default Fabiflue;

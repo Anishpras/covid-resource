@@ -1,4 +1,4 @@
-const TocilizumabData = [
+const Tocilizumab = [
 
 
     { 
@@ -6,6 +6,27 @@ const TocilizumabData = [
         distributor_name:'Agrawal traders',
         helpline:'0631-2221518',
         address:'RS Lal Bhawantekari Rd,Gaya' ,
+        status:true ,
+    },
+    { 
+        city:'Patna',
+        distributor_name:'Shree Salasar Balaji Agency',
+        helpline:'9709300131',
+        address:'Khemka House, Ashok Rajpath' ,
+        status:true ,
+    },
+    { 
+        city:'Patna',
+        distributor_name:'Arya Drug Distributors',
+        helpline:'',
+        address:'Shree Krishna Palace, GM Road' ,
+        status:true ,
+    },
+    { 
+        city:'Patna',
+        distributor_name:'Shree Balaji Pharma',
+        helpline:'9334255074',
+        address:'Dak Bungalow Road' ,
         status:true ,
     },
     { 
@@ -93,28 +114,8 @@ const TocilizumabData = [
         address:'bhagalpur	' ,
         status:true ,
     },
-    { 
-        city:'',
-        distributor_name:'',
-        helpline:'',
-        address:'' ,
-        status:true ,
-    },
-    { 
-        city:'',
-        distributor_name:'',
-        helpline:'',
-        address:'' ,
-        status:true ,
-    },
-    { 
-        city:'',
-        distributor_name:'',
-        helpline:'',
-        address:'' ,
-        status:true ,
-    },
+   
 
 ]
 
-export default TocilizumabData ;
+export default Tocilizumab ;

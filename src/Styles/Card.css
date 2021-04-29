@@ -1,0 +1,10 @@
+.Main_card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.color-main{
+
+
+}

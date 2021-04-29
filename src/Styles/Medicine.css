@@ -1,0 +1,13 @@
+
+
+
+
+.medicines{
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+ justify-content: center;
+ text-align: center;
+
+}
