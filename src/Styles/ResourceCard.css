@@ -1,11 +1,7 @@
-.resource-main {
-}
 .resource_Card {
-
   width: 20rem;
   height: 20rem;
-  background-color: #03B38E
-  ;
+  background-color: #03b38e;
   color: white;
   text-align: center;
   align-items: center;
@@ -15,7 +11,14 @@
   cursor: pointer;
 }
 
-.recourceCard_head{
-    position: relative;
-    top: 30%;
+.recourceCard_head {
+  position: relative;
+  top: 30%;
+}
+
+@media (max-width: 768px) {
+  .resource_Card {
+    width: 15rem;
+    height: 15rem;
+  }
 }

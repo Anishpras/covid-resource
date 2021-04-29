@@ -5,26 +5,35 @@
 }
 
 .resourcePage_main {
-    position: relative;
-    top: 10vh;
-padding-left: 17px;
-
-  
+  position: relative;
+  top: 10vh;
+  padding-left: 17px;
 }
-.resourcePage_Card{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.resourcePage_Card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 a {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
-.resourcepage-h4{
-  text-align: center;
+.resourcepage-h4 {
+}
+
+.resourcePage_news{
   position: relative;
   top: 40px;
   bottom: 40px;
+  
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+}
+.resourcePage_h2 {
+  color: black  ;
+
 
 }
