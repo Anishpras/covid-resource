@@ -7,12 +7,13 @@
 .resourcePage_main {
   position: relative;
   top: 10vh;
-  padding-left: 17px;
+ 
 }
 .resourcePage_Card {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 a {
@@ -22,18 +23,15 @@ a {
 .resourcepage-h4 {
 }
 
-.resourcePage_news{
+.resourcePage_news {
   position: relative;
   top: 40px;
   bottom: 40px;
-  
+
   text-align: center;
   display: flex;
   flex-direction: column;
-
 }
 .resourcePage_h2 {
-  color: black  ;
-
-
+  color: black;
 }
