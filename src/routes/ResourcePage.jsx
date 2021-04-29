@@ -41,19 +41,19 @@ const ResourcePage = () => {
   return (
     <div className="resource-page">
       <div className="resourcePage_content">
+      <h4 className="resourcepage-h4"style={{ color: "black" }}>
+        NOTE-{" "}
+        <strong style={{ color: "black" }}>
+          If any link or number is not working inform us at
+          biharcovid428@gmail.com mob: 9162248329
+        </strong>
+      </h4>
         <div className="resourcePage_main">
           <div className="resourcePage_Card">
             {resources.map((resource) => {
               return <ResourceCard name={resource.name} link={resource.link} />;
             })}
           </div>
-          <h4 style={{ color: "black", paddingTop: "200px" }}>
-            NOTE-{" "}
-            <strong style={{ color: "black" }}>
-              If any link or number is not working inform us at
-              biharcovid428@gmail.com mob: 9162248329
-            </strong>
-          </h4>
         </div>
       </div>
     </div>
