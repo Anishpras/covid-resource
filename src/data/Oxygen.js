@@ -282,7 +282,14 @@ const OxygenData = [
   {
     city: "Patna",
     distributor_name: "Akshat Neel  ",
-    helpline: "9304120054",
+    helpline: "9955563196",
+    address: "",
+    status: true,
+  },
+  {
+    city: "Patna",
+    distributor_name: "Akshat Neel  ",
+    helpline: "9523653467",
     address: "",
     status: true,
   },
