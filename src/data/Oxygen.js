@@ -12,7 +12,7 @@ const OxygenData = [
     helpline: "8083929076",
     address: "Patna,Bihar",
     status: true,
-  }
+  },
   {
     city: "Fatuha",
     distributor_name: "Bansir Air Product (Free refilling of oxygen)",
