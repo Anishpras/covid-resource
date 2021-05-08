@@ -36,7 +36,7 @@ const Bed = [
     distibutor_name: "MH Danapur (Lt Col Kali Shankar)",
     address: "Danapur Patna Bihar",
     helpline: "833497822",
-    status: true,
+    status: false,
     comment: "Status : Beds Available",
   },
   {
