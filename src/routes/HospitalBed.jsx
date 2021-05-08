@@ -2,10 +2,12 @@ import React from "react";
 import DataCard from "../components/DataCard";
 import Bed from "../data/Bed";
 import "../Styles/Card.css";
+import ResourceNews from "./ResourceNews";
 const HospitalBed = () => {
   return (
     <div className="color-main">
-      <div className="Main_card">
+    <ResourceNews/>
+    <div className="Main_card">
         {Bed.map((bed) => {
           return (
             <DataCard

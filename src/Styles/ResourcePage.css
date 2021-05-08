@@ -20,13 +20,10 @@ a {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
-.resourcepage-h4 {
-}
 
 .resourcePage_news {
   position: relative;
-  top: 40px;
-  bottom: 40px;
+  
 
   text-align: center;
   display: flex;

@@ -1,6 +1,24 @@
 const OxygenData = [
   {
     city: "Patna",
+    distributor_name: " Adarsh Kashyap",
+    helpline: " 7209779400",
+    address: "Patna,Bihar",
+    status: true,
+    comment: "50 liters oxygen cylinder available ",
+
+  },
+  {
+    city: "Patna",
+    distributor_name: " Pratyush raj singh ",
+    helpline: " 7541828253",
+    address: "Bhootnath kati factory patna",
+    status: true,
+    comment: " ",
+
+  },
+  {
+    city: "Patna",
     distributor_name: " Dubey Ji ",
     helpline: "8757954547",
     address: "Patna,Bihar",
